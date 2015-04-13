@@ -14,10 +14,10 @@ public class CheckPrintAsterisk {
         PrintAsterisk printAsterisk = new PrintAsterisk();
         printAsterisk.SetStar();
         ArrayList<String> output = printAsterisk.getStar();
-        System.out.print(output);
-//        assertEquals("*",   output.get(0));
-//        assertEquals("**",  output.get(1));
-//        assertEquals("***", output.get(2));
+//        System.out.print(output);
+        assertEquals("*",   output.get(0));
+        assertEquals("**",  output.get(1));
+        assertEquals("***", output.get(2));
 
 
     }
